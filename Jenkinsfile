@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools{
         maven 'Maven3'
-        jdk 'JDK1.8'
+        jdk "JDK.1.8"
     }
     options {
         timestamp()
